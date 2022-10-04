@@ -2,6 +2,8 @@
 
 This webapp will fetch content and process it by certain model.
 
+Model link: https://drive.google.com/drive/folders/1XelXeuxk3yqKF22bOAYPSUTURHhPHkwX
+
 ## Usage:
 
 ### Start WebApp:  
