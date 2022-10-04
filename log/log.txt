@@ -1,0 +1,30 @@
+
+INFO 2022-09-29 16:17:55,464 Initializing models...
+
+INFO 2022-09-29 16:17:55,464 Initializing model: i172 XLNet CNC / model_1 / score_result
+
+INFO 2022-09-29 16:17:56,650 Initializing model: i172 Evidence XLNet / model_3 / score_result
+
+INFO 2022-09-29 16:17:57,621 Initializing model: i172 Reasoning XLNet / model_4 / score_result
+
+INFO 2022-09-29 16:17:58,609 Initializing model: i172 BERT Multi / model_2 / multi_scores
+
+DEBUG 2022-09-29 16:21:11,831 Options:
+{'model': 'model_2', 'content': "Habitat distruction is the greater threat as once all the animals die it won't matter about the Pythons."}
+Result:
+{'Claim': [1, 0.8956063985824585], 'Evidence': [0, 0.00364016299135983], 'Reasoning': [1, 0.9839255809783936]}
+
+DEBUG 2022-09-29 16:22:17,930 Options:
+{'model': 'model_1', 'content': "Habitat distruction is the greater threat as once all the animals die it won't matter about the Pythons."}
+Result:
+{'result': 'CLAIM', 'score': 0.9922879934310913}
+
+DEBUG 2022-09-29 16:22:46,364 Options:
+{'model': 'model_3', 'content': "Habitat distruction is the greater threat as once all the animals die it won't matter about the Pythons."}
+Result:
+{'result': 'NOEVIDENCE', 'score': 0.0012019198620691895}
+
+DEBUG 2022-09-29 16:23:19,374 Options:
+{'model': 'model_4', 'content': "Habitat distruction is the greater threat as once all the animals die it won't matter about the Pythons."}
+Result:
+{'result': 'REASONING', 'score': 0.8939672708511353}
